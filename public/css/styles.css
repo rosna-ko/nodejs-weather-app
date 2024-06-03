@@ -1,0 +1,77 @@
+body {
+    color: #fff;
+    font-family: arial;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(90,36,113,1) 0%, rgba(187,139,227,1) 99%, rgba(0,212,255,1) 100%);
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+footer {
+    color: #bfb4b4;
+    border-top: 1px solid #eeeeee;
+    margin: 16px 0;
+    padding: 16px 0;
+}
+
+header {
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+h1 {
+    font-size: 64px;
+    margin-bottom: 16px;
+    color: #fff;
+}
+
+header a {
+    color: #bfb4b4;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+.portrait {
+    width: 250px;
+}
+
+input {
+    border: 1px solid #cccccc;
+    padding: 18px;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+button {
+    cursor: pointer;
+    border: 1px solid #888888;
+    background-color: orange;
+    color: #403c3c;
+    padding: 18px;
+    border-radius: 26px;
+    min-width: 150px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#message-2 {
+    padding: 10px;
+    background: rebeccapurple;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#message-1 {
+    padding: 30px 10px 30px 10px;
+    background: rebeccapurple;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
